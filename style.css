@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    background-color: #f7b600;
+    padding: 20px;
+}
+
+#menu-itens {
+    display: flex; /* Torna o contêiner flexível */
+    justify-content: space-around; /* Espaça os itens do menu uniformemente */
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+}
+
+#menu-itens > ul {
+    display: flex; /* Faz com que os itens da lista fiquem em uma linha */
+    justify-content: space-around; /* Espaça os itens do menu uniformemente */
+    width: 100%; /* Garante que os itens ocupem toda a largura do contêiner */
+    list-style: none; 
+    align-items: center;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
