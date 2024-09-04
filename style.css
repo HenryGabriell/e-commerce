@@ -31,3 +31,22 @@
 }
 
 
+
+
+#fundo-menu {
+    background-image: url(imagens/fundo-02.png) ;
+    background-size: cover;
+    background-position: center;
+    height: 85vh; 
+}
+
+#fundotxt{
+    padding-top: 200px;
+    padding-left: 90px;
+    font-size: 40px;
+}
+
+#fundo-menu > i{
+    margin-top: 170px;
+    margin-left: 600px;
+}
