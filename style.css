@@ -5,8 +5,15 @@
 }
 
 #menu {
-    background-color: #f7b600;
+    background-color: #005FB8;
     padding: 20px;
+}
+
+#menu > #menu-itens > h1{
+    color: #E98A15;
+}
+h1{
+    color: #E98A15;
 }
 
 #menu-itens {
@@ -33,12 +40,25 @@
 
 
 
+
+
 #fundo-menu {
-    background-image: url(imagens/fundo-02.png) ;
-    background-size: cover;
-    background-position: center;
-    height: 85vh; 
+    position: relative;
+    width: 100%; /* Garante que o contêiner cubra 100% da largura da viewport */
+    height: 90vh; /* Ajuste a altura conforme necessário */
+    overflow: hidden; /* Garante que nada extra apareça fora do contêiner */
 }
+
+.background-image {
+    position: absolute;
+    width:100vw;
+    height: 107%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+
+
 
 #fundotxt{
     padding-top: 200px;
@@ -82,7 +102,7 @@
   }
 
 main{
-    background-color: #d3cfcf;
+    background-color: #005FB8;
 }
 
 main > h1{
