@@ -98,6 +98,20 @@ main > h1{
 
 
 #price{
-    
-    height: 50vh;
+    height: 70vh;
+}
+
+#container{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigcard{
+    border: 2px solid blue;
+    display: inline-block;
+    width: 550px;
+    height: 300px;
 }
