@@ -15,6 +15,13 @@ body {
     margin: 0px 70px;
 }
 
+.bx-mouse {
+    position: absolute;
+    bottom: 10px; /* Altere o valor conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 
 #menu-itens {
