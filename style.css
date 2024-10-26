@@ -126,3 +126,37 @@ main > h1{
     border: 1px solid rgb(200, 199, 199); /* Tonalidade mais escura para visualização */
     overflow: hidden; /* Evita que o conteúdo transborde */
 }
+
+
+/*---------- Ofertas do dia ----------*/
+
+#sec{
+    margin-top: 50px;
+}
+
+section > h1{
+    font-size: 40px;
+    padding: 10px 65px;
+    padding-top: 30px
+}
+
+#cardes{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.car{
+    display: flex;
+    width: 550px;
+    height: 290px;
+    border: 1px solid black;
+}
+
+
+
+
+footer{
+    margin-top: 100px;
+}
