@@ -127,6 +127,11 @@ main > h1{
     align-items: center;
     border-radius: 15px;
 }
+
+.c-card :hover{
+    cursor: pointer;
+}
+
  .c-card {
     border-radius: 15px;
     display: flex;
@@ -156,6 +161,10 @@ section > h1{
     gap: 30px;
     justify-content: center;
     margin-top: 30px;
+}
+
+.boxs :hover{
+    cursor: pointer;
 }
 
 .car{
@@ -227,9 +236,21 @@ section > h1{
     margin-left: 17px;
 }
 
+.texto > h1{
+    color: #3342a5;
+}
+
+.jbleplus{
+    color: #6494fc;
+}
+
 .texto2{
     margin: auto 0px;
     margin-left: 45px;
+}
+
+.texto2 > h1{
+    color: #3342a5;
 }
 
 .risco{
