@@ -272,15 +272,16 @@ footer{
 }
 
 .footer-son> p{
-    margin-top: 30px;
+    margin-top: 50px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.footer-son :hover{
+    cursor: pointer;
 }
 
 .footer-son> h2{
     color: #3342a5;
 }
 
-#creator{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
