@@ -121,7 +121,7 @@ main > h1{
 
 .c-card__content {
     height: 60px; /* Altura fixa para a seção de conteúdo */
-    background-color: #87baed;
+    background-color: #6494fce8;
     display: flex;
     justify-content: center;
     align-items: center;
