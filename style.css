@@ -15,6 +15,10 @@ body {
     margin: 0px 70px;
 }
 
+#fundotxt > p{
+    color: #6494fc;
+}
+
 .bx-mouse {
     position: absolute;
     bottom: 10px; /* Altere o valor conforme necessário */
@@ -40,13 +44,14 @@ body {
 }
 
 #menu-itens > ul > li > a{
-    color: black;
+    color: #6494fc;
     text-decoration: none;
 }
 
 #head-h1{
     font-size: 40px;
     padding-top: 100px ;
+    color: #3342a5;
 }
 
 .head-txt{
@@ -58,6 +63,10 @@ body {
 .head-txt > div > p{
     width: 86%;
     text-align: justify;
+}
+
+.head-txt > div > h4{
+    color: #3342a5;
 }
 
 
@@ -78,7 +87,8 @@ main{
 main > h1{
     font-size: 40px;
     padding: 10px 65px;
-    padding-top: 30px
+    padding-top: 30px;
+    color: #3342a5;
 }
 
  main > #price > h1{
@@ -137,7 +147,8 @@ main > h1{
 section > h1{
     font-size: 40px;
     padding: 10px 65px;
-    padding-top: 30px
+    padding-top: 30px;
+    color: #3342a5;
 }
 
 #cardes{
@@ -231,5 +242,24 @@ section > h1{
 }
 
 footer{
-    margin-top: 100px;
+    margin-top: 70px;
+}
+
+#footer-dad{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-son> p{
+    margin-top: 30px;
+}
+
+.footer-son> h2{
+    color: #3342a5;
+}
+
+#creator{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
