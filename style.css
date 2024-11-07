@@ -287,9 +287,12 @@ footer{
 
 @media screen and (max-width: 768px){
     .background-image{
-        width: 600px;
+        height: 590px;
+        width: 560px;
         float: none;
-        margin: 40px 0px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
     }
     .bx-mouse {
         position: absolute;
@@ -302,5 +305,36 @@ footer{
         padding-top: 50px;
         width: 410px;
     }
+    #fundotxt > p{
+        font-size: larger;
+    }
+    .head-txt > div > p{
+        font-size: 25px;
+        width: 110%;
+    }
+    .head-txt{
+        display: block;
+        margin-top: 50px;
+        width: 350px;
+    }
+    .head-txt > div > h4{
+        font-size: 30px;
+    }
+    .head-txt > div{
+        margin-top: 20px;
+    }
+    #menu-itens {
+        margin: 20px  45px;
+    }
+    #menu-itens > ul {
+        display: flex; /* Faz com que os itens da lista fiquem em uma linha */
+        gap: 100px;
+    }
+    #icons{
+        display: flex;
+        margin-left: 60px;
+        gap: 10px;
+    }
+    
 }
 
