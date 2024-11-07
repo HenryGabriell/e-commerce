@@ -295,8 +295,8 @@ footer{
         justify-content: center;
     }
     .bx-mouse {
+        bottom: 25px;
         position: absolute;
-        bottom: 1px; /* Altere o valor conforme necessário */
         left: 80%;
         transform: translateX(-70%);
     }
@@ -324,16 +324,20 @@ footer{
         margin-top: 20px;
     }
     #menu-itens {
-        margin: 20px  45px;
+        margin: 20px  40px;
     }
     #menu-itens > ul {
         display: flex; /* Faz com que os itens da lista fiquem em uma linha */
-        gap: 100px;
+        gap: 80px;
+    }
+    #menu-itens > ul > li > a{
+        font-size: 20px;
     }
     #icons{
+        font-size: x-large;
         display: flex;
         margin-left: 60px;
-        gap: 10px;
+        gap: 8px;
     }
     
 }
