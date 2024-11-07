@@ -286,6 +286,9 @@ footer{
 }
 
 @media screen and (max-width: 768px){
+    body{
+        width: 546px;
+    }
     .background-image{
         height: 590px;
         width: 560px;
@@ -338,6 +341,21 @@ footer{
         display: flex;
         margin-left: 60px;
         gap: 8px;
+    }
+    main > h1{
+        font-size: 60px;
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .c-card{
+        height: 320px;
+        width: 255px;
+    }
+    .c-card > div{
+    }
+    .c-card__content > p{
+        font-size: x-large;
     }
     
 }
