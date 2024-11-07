@@ -378,6 +378,11 @@ footer{
     #car2{
         margin-top: 50px;
     }
+    .footer-son> p{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
     
 }
 
