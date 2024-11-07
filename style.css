@@ -352,10 +352,31 @@ footer{
         height: 320px;
         width: 255px;
     }
-    .c-card > div{
-    }
     .c-card__content > p{
         font-size: x-large;
+    }
+    section > h1{
+        font-size: 50px;
+        padding: 10px 65px;
+        display: flex;
+        justify-content: center;
+    }
+    #cardes{
+        display:block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .car{
+        
+        display: flex;
+        width: 520px;
+        height: 300px;
+        border: 1px solid black;
+        margin: auto;
+    }
+    #car2{
+        margin-top: 50px;
     }
     
 }
