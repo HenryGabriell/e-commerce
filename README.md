@@ -2,7 +2,7 @@
 
  Site e-commerce responsivo apenas com html e css puro.
  <br>
- Da uma olhada:
+ Da uma olhada:  https://henrygabriell.github.io/e-commerce/
   <hr>
 <br>
 <img width="536" height="270" src="https://github.com/user-attachments/assets/a2267d05-4a9c-4d42-bbc6-a1019af3df96">
